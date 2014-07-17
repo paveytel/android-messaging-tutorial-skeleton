@@ -31,7 +31,7 @@
 
         <EditText
                 android:layout_marginBottom="-4dp"
-                android:id="@+id/txtTextBody"
+                android:id="@+id/messageBodyField"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="@string/message_elipses"
@@ -44,7 +44,7 @@
                 android:layout_toLeftOf="@+id/btnSend"/>
 
         <Button
-                android:id="@+id/btnSend"
+                android:id="@+id/sendButton"
                 android:layout_width="72dp"
                 android:layout_height="match_parent"
                 android:layout_alignParentRight="true"
